@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 597687459650-higakd5vatp2bb6rqqgel04av37rrm8a.apps.googleusercontent.com
+            client-secret: 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
+            scope: openid,profile,email
+      resourceserver:
+        jwt:
+          issuer-uri: https://accounts.google.com
+          jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/authTest
+      database: authTest
