@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/Code-TailwindCss-informational?style=flat&logo=tailwind-css&color=38B2AC)
 
 ## Goals
-[x] Authentication using OAuth
-[x] Verification of token
-[x] User registration after authentication if not already registered
-[x] Beautiful design
+- [x] Authentication using OAuth
+- [x] Verification of token
+- [x] User registration after authentication if not already registered
+- [x] Beautiful design
